@@ -12,7 +12,7 @@
 8. 本地 D1/Worker 曾间歇出现首页或 operations 500，SQLite quick_check 正常且自行恢复；没有证据证明根因永久解决。恢复时要看实际请求日志。
 9. 公开活动证据和库存是硬约束，剩余 planned 数不等于今天可发人数。最近快照合格库存曾归零。
 10. 既有跟进发送器、老个人 Gmail、不同回复日志及当前主发送器不是一个统一提交状态机；统一前须保留各路径未知保护与逐封证据。
-11. billing-local 依赖仓库外 renewalSchedule.js、Stripe 私有配置和历史数据文件，副本默认关闭。它不会自动获得取消、退款权限。
+11. billing-local 仍按原路径依赖外部 renewalSchedule.js、Stripe 私有配置和历史数据。排期模块与测试已另补入 reference/billing，历史数据存私有包，但路径未接通，GeoIP 依赖与数据未包含。副本默认关闭，不会自动获得取消、退款权限。
 12. 原部署是单机运营系统，硬编码发送身份、Keychain、launchd、Unix 锁和大 API 路由仍需工程化。不能宣称已是多租户、可直接横向扩容的平台。
 
 ## 已经存在且不能回退的修复

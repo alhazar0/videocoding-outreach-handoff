@@ -1,0 +1,18 @@
+[
+  {
+    "path": "reference/billing/renewalSchedule.js",
+    "source_project": "videocoding-renewal-reminders",
+    "source_relative_path": "deploy/backend-module/billing/renewalSchedule.js",
+    "source_sha256": "afa82af13b17a3099585233dc9c5f2991568902cdad759874a255e710cb6be99",
+    "export_sha256": "afa82af13b17a3099585233dc9c5f2991568902cdad759874a255e710cb6be99",
+    "modified": false
+  },
+  {
+    "path": "reference/billing/renewalSchedule.test.js",
+    "source_project": "videocoding-renewal-reminders",
+    "source_relative_path": "deploy/backend-module/billing/renewalSchedule.test.js",
+    "source_sha256": "9198433a1ac055d50cf7b64bd6c9fd18e1c714ce07b361090d769cc51afceeef",
+    "export_sha256": "9198433a1ac055d50cf7b64bd6c9fd18e1c714ce07b361090d769cc51afceeef",
+    "modified": false
+  }
+]

@@ -64,4 +64,4 @@ Node 依赖固定在 package-lock.json；Python 原环境为 3.13，主要使用
 
 Microsoft OAuth 的 refresh token 存在私有运营库；Google SMTP app password 与产品令牌原通过 Keychain/环境提供。源码中导出的租户与 client ID 已替换为占位值；实际密钥不能提交 Git。产品接口契约包括精确邮箱查询、emailVerified、subscription、activity 和 coupon，不包含所有 Stripe 交易或取消字段。
 
-账单模块有独立只读 Stripe 来源，不能将其存在推断为外联 AI 获得退款、取消或删除权限。外部 renewalSchedule.js 不在本项目，副本默认不加载账单插件，正式启用需额外迁移该依赖并单独验收。
+账单模块有独立只读 Stripe 来源，不能将其存在推断为外联 AI 获得退款、取消或删除权限。后续交接补查已把实际 renewalSchedule.js 和测试放入 reference/billing 作为参考，但原插件仍引用仓库外路径，GeoIP 依赖与数据未打包。副本默认不加载账单插件，正式启用需完成路径、依赖、凭证与权限的独立验收。

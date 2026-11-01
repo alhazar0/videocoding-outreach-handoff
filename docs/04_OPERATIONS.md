@@ -46,7 +46,7 @@ npm run dev -- --hostname 127.0.0.1 --port 3001
 
 副本 Python 的 Microsoft token、Google Keychain 密码、产品 Keychain 令牌入口默认拒绝访问；明确设 VIDEOCODING_ALLOW_LIVE_OPERATIONS=1 后才会继续原流程。Cloudflare Microsoft refresh 同样需要对应 binding。这个开关只是防误操作，并不是付款、恢复或批量发送授权，也不是全网络沙箱。
 
-.env.example 展示 Python 环境配置，Python 不会自动读取 .env 文件；.dev.vars.example 展示本地 Worker bindings。不得把真实值提交。账单插件还需 VIDEOCODING_ENABLE_LOCAL_BILLING=1，默认不会加载；其私有 Stripe 文件和外部 reminder 模块未打包。
+.env.example 展示 Python 环境配置，Python 不会自动读取 .env 文件；.dev.vars.example 展示本地 Worker bindings。不得把真实值提交。账单插件还需 VIDEOCODING_ENABLE_LOCAL_BILLING=1，默认不会加载。排期模块源码与测试已补入 reference/billing 供参考，未改原外部路径；GeoIP 依赖及 Stripe 凭证仍需独立配置。历史账单缓存在私有包，不代表实时状态或操作权限。
 
 ## 真正恢复前的具体顺序
 

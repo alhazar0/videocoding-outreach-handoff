@@ -18,3 +18,5 @@
 验证复用了原环境安装的 node_modules 和 Python 3.13 虚拟环境；没有宣称在全新机器上执行过 npm ci。仓库不携带依赖目录，接手人须按 lockfile 重装并复验。构建产物和暂时依赖链接不会进入 Git。
 
 开发机默认 /usr/bin/git 受损坏的 Xcode 选择影响；本次使用现有 /Library/Developer/CommandLineTools/usr/bin/git，不改系统 Xcode 配置。这是当前机器工具链问题，不是仓库源码问题。
+
+公开交接阶段另核对文档本地链接，并对补入的 reference/billing/renewalSchedule.test.js 执行 3 项原测试，全部通过；它们只检查时区/夏令时排期与窗口边界，没有验证 GeoIP、Stripe 或真实发送。上述主应用全量结果没有因文档更新重复计数。

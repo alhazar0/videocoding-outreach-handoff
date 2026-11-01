@@ -33,5 +33,11 @@
     "command": "python -m unittest tests.test_initial_template_router tests.test_handoff_guard",
     "result": "passed",
     "tests": 23
+  },
+  "external_billing_reference": {
+    "command": "node --test reference/billing/renewalSchedule.test.js",
+    "tests": 3,
+    "passed": 3,
+    "scope": "Local date, DST and send-window calculations only; GeoIP/Stripe not exercised"
   }
 }
