@@ -1,0 +1,8 @@
+# Cloudflare local bindings; ignored .dev.vars is populated privately if authorized.
+VIDEOCODING_ALLOW_LIVE_OPERATIONS=0
+MICROSOFT_CLIENT_ID=
+MICROSOFT_TENANT_ID=
+PRODUCT_ADMIN_API_ORIGIN=
+PRODUCT_ADMIN_BEARER_TOKEN=
+OPENAI_API_KEY=
+

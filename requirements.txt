@@ -1,0 +1,4 @@
+# Version present in the original Python 3.13 collector environment.
+# Reassess compatibility with public sites before enabling collection.
+yt-dlp==2025.10.14
+

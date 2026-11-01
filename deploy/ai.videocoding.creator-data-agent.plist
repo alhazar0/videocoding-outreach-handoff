@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>ai.videocoding.creator-data-agent</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/python3</string>
+    <string>/Users/OPERATOR/.videocoding-outreach-runtime/scripts/creator_data_agent.py</string>
+    <string>--origin</string>
+    <string>https://videocoding.ai</string>
+    <string>--usage-limit</string>
+    <string>25</string>
+    <string>--membership-limit</string>
+    <string>5</string>
+    <string>--sync-minutes</string>
+    <string>15</string>
+    <string>--send</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime</string>
+  <key>StartInterval</key>
+  <integer>420</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/creator-data-agent.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/creator-data-agent.error.log</string>
+  <key>ProcessType</key>
+  <string>Standard</string>
+</dict>
+</plist>

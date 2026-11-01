@@ -1,0 +1,14 @@
+[Unit]
+Description=VideoCoding Microsoft 365 creator outreach
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/videocoding-outreach-scheduler
+ExecStart=/usr/bin/python3 /opt/videocoding-outreach-scheduler/outreach_scheduler.py --scheduled --db /opt/videocoding-outreach-scheduler/outreach.sqlite --lock /run/lock/videocoding-outreach.lock --limit 45 --interval-seconds 45
+User=root
+Nice=10
+
+[Install]
+WantedBy=multi-user.target

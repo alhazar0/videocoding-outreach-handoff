@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>ai.videocoding.dashboard</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/screen</string>
+    <string>-c</string>
+    <string>/Users/OPERATOR/.videocoding-outreach-runtime/deploy/videocoding-dashboard.screenrc</string>
+    <string>-L</string>
+    <string>-D</string>
+    <string>-m</string>
+    <string>-S</string>
+    <string>videocoding-dashboard</string>
+    <string>/Users/OPERATOR/.nvm/versions/node/v24.4.1/bin/node</string>
+    <string>/Users/OPERATOR/.videocoding-outreach-runtime/node_modules/vinext/dist/cli.js</string>
+    <string>dev</string>
+    <string>--hostname</string>
+    <string>127.0.0.1</string>
+    <string>--port</string>
+    <string>3000</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/OPERATOR/.nvm/versions/node/v24.4.1/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>HOST</key>
+    <string>127.0.0.1</string>
+    <key>PORT</key>
+    <string>3000</string>
+    <key>WRANGLER_LOG_PATH</key>
+    <string>/Users/OPERATOR/.videocoding-outreach-runtime/.wrangler/wrangler.log</string>
+  </dict>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>10</integer>
+  <key>ProcessType</key>
+  <string>Interactive</string>
+  <key>StandardOutPath</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/dashboard.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/dashboard.error.log</string>
+</dict>
+</plist>

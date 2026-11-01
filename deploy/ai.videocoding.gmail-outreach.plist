@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>VIDEOCODING_GMAIL_TUNNEL_PORT</key>
+		<string>1465</string>
+	</dict>
+	<key>Label</key>
+	<string>ai.videocoding.gmail-outreach</string>
+	<key>ProcessType</key>
+	<string>Standard</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/opt/homebrew/bin/python3</string>
+		<string>/Users/OPERATOR/.videocoding-outreach-runtime/scripts/outreach_scheduler.py</string>
+		<string>--scheduled</string>
+		<string>--provider</string>
+		<string>google_workspace_smtp</string>
+		<string>--limit</string>
+		<string>10</string>
+		<string>--interval-seconds</string>
+		<string>120</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/gmail-outreach-scheduler.error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/gmail-outreach-scheduler.log</string>
+	<key>StartInterval</key>
+	<integer>600</integer>
+	<key>WorkingDirectory</key>
+	<string>/Users/OPERATOR/.videocoding-outreach-runtime</string>
+</dict>
+</plist>

@@ -1,0 +1,1185 @@
+[
+  {
+    "path": "scripts/merge_lead_discovery.py",
+    "source_sha256": "6676fd2828718e33d9cf99336208d4643a7762d0d2ec5fc6bb002fefe12bf33a",
+    "export_sha256": "6676fd2828718e33d9cf99336208d4643a7762d0d2ec5fc6bb002fefe12bf33a",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/reviewed_service_case.py",
+    "source_sha256": "4e401ddef65a8b5139c978c079423a6e0681adf95f8f6d502c503ce050a616b0",
+    "export_sha256": "4e401ddef65a8b5139c978c079423a6e0681adf95f8f6d502c503ce050a616b0",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/creator_activity.py",
+    "source_sha256": "2d28b70d033322a0a113e99194fd4142d347397f525b412a6c0a78519d7702b5",
+    "export_sha256": "2d28b70d033322a0a113e99194fd4142d347397f525b412a6c0a78519d7702b5",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/reviewed_contact_hold.py",
+    "source_sha256": "07eb53d6a8a05af186ab7ac9a61057ce78b016b2ae66d70f6d7635c3e723d2de",
+    "export_sha256": "07eb53d6a8a05af186ab7ac9a61057ce78b016b2ae66d70f6d7635c3e723d2de",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/refresh_public_creator_leads.py",
+    "source_sha256": "9cd5080f44303c9111f68f854b49f7cc233b2ada695a3ee4cd1b68976ffac356",
+    "export_sha256": "e391de1ffcfaac8c9696951aa5da52bd4289861be0dccf15b9af2a24e7cf8500",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "scripts/outreach_health_check.py",
+    "source_sha256": "a3564bcce1fc35f933afbbd5d35cad3cf8772b113abbfcdd243e5aadc1527f98",
+    "export_sha256": "a3564bcce1fc35f933afbbd5d35cad3cf8772b113abbfcdd243e5aadc1527f98",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/creator_feedback.py",
+    "source_sha256": "11fde8185fe8524c5139034980c590d112a60a93f6a9addc1362ed9ac3c861fa",
+    "export_sha256": "11fde8185fe8524c5139034980c590d112a60a93f6a9addc1362ed9ac3c861fa",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/gmail_reviewed_reply.py",
+    "source_sha256": "da7a531828712597f4f831215ef49f4bbd2dffe63dc699c975a9681e75378ce2",
+    "export_sha256": "da7a531828712597f4f831215ef49f4bbd2dffe63dc699c975a9681e75378ce2",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/continuous_lead_discovery.py",
+    "source_sha256": "351c33f24db9f782664203ad4dd8dec18dbe9ebe98c02441e4e15a73685800f4",
+    "export_sha256": "351c33f24db9f782664203ad4dd8dec18dbe9ebe98c02441e4e15a73685800f4",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/outreach_keep_awake.py",
+    "source_sha256": "51a49508b81fe5fea49e98278d05cfc04dc9d519315e4bcab09e48c91b0b04db",
+    "export_sha256": "51a49508b81fe5fea49e98278d05cfc04dc9d519315e4bcab09e48c91b0b04db",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/inbox_sync.py",
+    "source_sha256": "f480cf4a2d4a09f33b2b2f63c7b2936304d735315192ba6d873f5fbfc800b26d",
+    "export_sha256": "f480cf4a2d4a09f33b2b2f63c7b2936304d735315192ba6d873f5fbfc800b26d",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/outreach_scheduler.py",
+    "source_sha256": "17416d1415a831c74600a19559e1f9a6c2829b6fde709a18f6a49b48c0b44659",
+    "export_sha256": "118cf48793279e7c237ee8151e7b02f2827442b1dcc4b01ae7ec8ef6f984abe8",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "scripts/send_reviewed_offer_trial.py",
+    "source_sha256": "9b8afc747b1e412f8beadc41fea04b734e51d207eecd081ddf98ec55f2a66639",
+    "export_sha256": "9b8afc747b1e412f8beadc41fea04b734e51d207eecd081ddf98ec55f2a66639",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/reply_context.py",
+    "source_sha256": "60dcc077c8c912166bfd7ae3c034ecd075a5e51295ec5d17c0b9ed64c8c8f87d",
+    "export_sha256": "60dcc077c8c912166bfd7ae3c034ecd075a5e51295ec5d17c0b9ed64c8c8f87d",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/recover_reviewed_membership_requests.py",
+    "source_sha256": "bcc482927ada76fb44c12591953e5f23d2f6f7895b675af3919260ab33745b04",
+    "export_sha256": "bcc482927ada76fb44c12591953e5f23d2f6f7895b675af3919260ab33745b04",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/configure_gmail_sender.py",
+    "source_sha256": "e2fd5a87c8aa4a40b304cdcf6b8460aeaacb8c058bb75f3925875a121236438b",
+    "export_sha256": "e2fd5a87c8aa4a40b304cdcf6b8460aeaacb8c058bb75f3925875a121236438b",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/creator_data_agent.py",
+    "source_sha256": "58d986b8a27571b6b21edc2a00a4ee5b23a2560a4eb83bc0cc0c7a9f7024ae19",
+    "export_sha256": "298157fd055dded78f9a35c48c26f681f604cd2cc133302f17035886a43aa18b",
+    "sanitized": false,
+    "changed_from_original": true
+  },
+  {
+    "path": "scripts/build_contact_master.py",
+    "source_sha256": "dc81784876df67f604c996eecfccd1105157964df76fd79b44c815ff826e1df9",
+    "export_sha256": "cc66afc7efa80b9462b3fbe9106607b531323114f64238204cf18dd387466ca6",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "scripts/send_approved_reply_batch.py",
+    "source_sha256": "a30592e991966fac1f98ec32e17d0b028e5fe66ea336bf79ce6211aa3bd01d1e",
+    "export_sha256": "a30592e991966fac1f98ec32e17d0b028e5fe66ea336bf79ce6211aa3bd01d1e",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/hydrate_legacy_inbox.py",
+    "source_sha256": "d011bef9c8f5e96d5292727312b761a4385ae70fde91b25a12f40b0cd245d837",
+    "export_sha256": "d011bef9c8f5e96d5292727312b761a4385ae70fde91b25a12f40b0cd245d837",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/send_coupon_replies.py",
+    "source_sha256": "7869b75af8fcbb6c484f770cb090417a3c54d25add84870a73e744380620eb76",
+    "export_sha256": "70aa461f255c65f8b380f162702b9f83a1a252e580cffd345d498ddaeefa8aa3",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "scripts/import_public_creator_leads.py",
+    "source_sha256": "d7cdc65179bd58e5edeb735c04a65463705268bb91468a26eb3c3464c6f37f19",
+    "export_sha256": "7ee9571df53dba0782c1c6ca38ba72d193284d3cecd877185b910dc13b37fc0b",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "scripts/safe_workflow_reply_agent.py",
+    "source_sha256": "b305fc7dfca6473a3fc9d712d463a16b6e016fba3cb30b58f82b6dfa510684fe",
+    "export_sha256": "b305fc7dfca6473a3fc9d712d463a16b6e016fba3cb30b58f82b6dfa510684fe",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/replenish_initial_queue.py",
+    "source_sha256": "8e51a6f79794640868cbb9aa45ef64910d14449d2214d1f972c10d36277583fa",
+    "export_sha256": "8e51a6f79794640868cbb9aa45ef64910d14449d2214d1f972c10d36277583fa",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/reply_safety.py",
+    "source_sha256": "ab6ac264e271b284f34cba02fc17c157ff8dc17d5fefe653f60217679aafa067",
+    "export_sha256": "ab6ac264e271b284f34cba02fc17c157ff8dc17d5fefe653f60217679aafa067",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/send_reviewed_simple_trial.py",
+    "source_sha256": "339931c92b685dedf7c97bd3c62fb4d64cafe825596d5a5974546f3a866133a8",
+    "export_sha256": "339931c92b685dedf7c97bd3c62fb4d64cafe825596d5a5974546f3a866133a8",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/gmail_history_sync.py",
+    "source_sha256": "3401d5514a3f54fc52b05727cb195436a4900270ef743ab61c4a85ab15f3ff7c",
+    "export_sha256": "3401d5514a3f54fc52b05727cb195436a4900270ef743ab61c4a85ab15f3ff7c",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/public_podcast_discovery.py",
+    "source_sha256": "5c2a02b32c397a37c9e493f1a710d782297973f718c5f42575fbc5c28c46a19d",
+    "export_sha256": "5c2a02b32c397a37c9e493f1a710d782297973f718c5f42575fbc5c28c46a19d",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/reply_template_router.py",
+    "source_sha256": "abb6344facd41cfc8ab3b30e991abc445ef7ddbadb6b01b30e2f7c22e2efb798",
+    "export_sha256": "abb6344facd41cfc8ab3b30e991abc445ef7ddbadb6b01b30e2f7c22e2efb798",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/dashboard_server.mjs",
+    "source_sha256": "459f35b1f6b79250084b6691fcd3460aa56bcfeb62d837875fd2fbe12e2e1290",
+    "export_sha256": "459f35b1f6b79250084b6691fcd3460aa56bcfeb62d837875fd2fbe12e2e1290",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/verify_simple_trial_sent.py",
+    "source_sha256": "b7d67a48c36e3fe97fa41eb6d797c2f9128f2041dfe32248ebf8d69bf07b6c40",
+    "export_sha256": "b7d67a48c36e3fe97fa41eb6d797c2f9128f2041dfe32248ebf8d69bf07b6c40",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/repair_sender_restrictions.py",
+    "source_sha256": "77a2dc15d635106a9f70ab98be52dc69b01f2103e554abec1206189c3cc692f5",
+    "export_sha256": "77a2dc15d635106a9f70ab98be52dc69b01f2103e554abec1206189c3cc692f5",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/mail_delivery.py",
+    "source_sha256": "ed92265943fced810941c8c3356a347255c6332fb8553875842568cf3ebe267c",
+    "export_sha256": "ed92265943fced810941c8c3356a347255c6332fb8553875842568cf3ebe267c",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/execute_reviewed_cardless.py",
+    "source_sha256": "471085f62f0b33208475429c92c5518f9c32a82802a467471e294a50b2bd1bed",
+    "export_sha256": "471085f62f0b33208475429c92c5518f9c32a82802a467471e294a50b2bd1bed",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/discovery_topics.py",
+    "source_sha256": "f5b1dd89df6aa19370d2034a38ea15fd464bcf74d5fd8b3d9e2f96818c20585d",
+    "export_sha256": "f5b1dd89df6aa19370d2034a38ea15fd464bcf74d5fd8b3d9e2f96818c20585d",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/creator_followup_agent.py",
+    "source_sha256": "27b147481849c8b16606dd456cd7db971e14491a0a79e9460c4a9f363cd00ab3",
+    "export_sha256": "27b147481849c8b16606dd456cd7db971e14491a0a79e9460c4a9f363cd00ab3",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/initial_template_router.py",
+    "source_sha256": "60a8287e4e1daafb19ba4835ee7ac50b94b0e1c325a4e534d0e09cb52d3d5345",
+    "export_sha256": "60a8287e4e1daafb19ba4835ee7ac50b94b0e1c325a4e534d0e09cb52d3d5345",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "scripts/discovery_learning.py",
+    "source_sha256": "a297224c2d5456827feddcbf94ea995742d43a52bad2215a8c4cfcc8fa8c0183",
+    "export_sha256": "a297224c2d5456827feddcbf94ea995742d43a52bad2215a8c4cfcc8fa8c0183",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_initial_queue_replenisher.py",
+    "source_sha256": "5dbb3ef9891d09728a3768fa534126a52e1c20b966d70acde5975b462f7fdd7b",
+    "export_sha256": "5dbb3ef9891d09728a3768fa534126a52e1c20b966d70acde5975b462f7fdd7b",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_reply_template_router.py",
+    "source_sha256": "353b17061d327db9c667532a398d36d16d3c4e461f8070fac5cf1eca142f5456",
+    "export_sha256": "353b17061d327db9c667532a398d36d16d3c4e461f8070fac5cf1eca142f5456",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_outreach_recovery.py",
+    "source_sha256": "27f11154a587dc9b64b2355c1c4df129eb5cd97778a3187abfce4f02aa38e073",
+    "export_sha256": "27f11154a587dc9b64b2355c1c4df129eb5cd97778a3187abfce4f02aa38e073",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_trial_billing_disclosure.py",
+    "source_sha256": "c22f96d3e037a8eb38f461be3cd7d484e8d3f737706d944dc4103b19ff2c2583",
+    "export_sha256": "c22f96d3e037a8eb38f461be3cd7d484e8d3f737706d944dc4103b19ff2c2583",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/rendered-html.test.mjs",
+    "source_sha256": "585cca7ddd2a221bfae073490605d234e1ec1d3a3bcd1563ae1fa5fd0bb81a95",
+    "export_sha256": "dcfa1fa39c7b1913f2c00b7a7b9505b6e4aaa0a85692abd1b9b5072e52345890",
+    "sanitized": false,
+    "changed_from_original": true
+  },
+  {
+    "path": "tests/billing-local.test.mjs",
+    "source_sha256": "b52a6dab5f755dab22b7434b292e7ab455746bb4223e53692cb823997b53e95d",
+    "export_sha256": "b52a6dab5f755dab22b7434b292e7ab455746bb4223e53692cb823997b53e95d",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_safe_workflow_reply_agent.py",
+    "source_sha256": "1e6d1e560b0350face63b1f72a4068885586006c99f062aa2b2b15c49e2165ae",
+    "export_sha256": "1e6d1e560b0350face63b1f72a4068885586006c99f062aa2b2b15c49e2165ae",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/reply-text.test.mjs",
+    "source_sha256": "1204230dc783306125391ca6ff1407dbcef8df4a5f5f65f52a9cde6c5c091d4a",
+    "export_sha256": "1204230dc783306125391ca6ff1407dbcef8df4a5f5f65f52a9cde6c5c091d4a",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_discovery_learning.py",
+    "source_sha256": "b2098d814550a6d10f957107a30d7b5e6198254d551e9d4d6dea40057750d18b",
+    "export_sha256": "b2098d814550a6d10f957107a30d7b5e6198254d551e9d4d6dea40057750d18b",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_public_podcast_discovery.py",
+    "source_sha256": "1b0088ee79142150eb853c08ec1514b2442b1be50cf4e140fbece59ec6541414",
+    "export_sha256": "1b0088ee79142150eb853c08ec1514b2442b1be50cf4e140fbece59ec6541414",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_reply_safety.py",
+    "source_sha256": "168d2842e6e3e0ec1ec5cd83ed994f32b38d1edc0335df007c2d1a861a6dba02",
+    "export_sha256": "168d2842e6e3e0ec1ec5cd83ed994f32b38d1edc0335df007c2d1a861a6dba02",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_remaining_reply_guards.py",
+    "source_sha256": "243e115e8860c81edaee1700de91e828d65440ebd51f600d75dd7ce7469b2bbe",
+    "export_sha256": "243e115e8860c81edaee1700de91e828d65440ebd51f600d75dd7ce7469b2bbe",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_reviewed_representative_context.py",
+    "source_sha256": "d2a7249b505af8548bdbe96d490afa2c6a8cf383a585151c63bd3e9674a4e1f0",
+    "export_sha256": "d2a7249b505af8548bdbe96d490afa2c6a8cf383a585151c63bd3e9674a4e1f0",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_creator_followup_agent.py",
+    "source_sha256": "5652f64cd29b6ce0bc24a230f36710510f4cd2a0f4833912a7a3e65eb00fc82d",
+    "export_sha256": "5652f64cd29b6ce0bc24a230f36710510f4cd2a0f4833912a7a3e65eb00fc82d",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_creator_activity_video_fallback.py",
+    "source_sha256": "2b7556ef90b9097b65e1ca9d0bbfa1daccc1c5d70d14aaaa80cd7edf3c86b991",
+    "export_sha256": "2b7556ef90b9097b65e1ca9d0bbfa1daccc1c5d70d14aaaa80cd7edf3c86b991",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_reply_context.py",
+    "source_sha256": "6c4e7b80e57392fed168dce4ca444a14c0e3a84b347291951801c7126cb38896",
+    "export_sha256": "6c4e7b80e57392fed168dce4ca444a14c0e3a84b347291951801c7126cb38896",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_gmail_initial_outcome.py",
+    "source_sha256": "f92c59e15d9cafce575bae5ea5cac635d7c1bc1dfce35bba89444e34b670929f",
+    "export_sha256": "f92c59e15d9cafce575bae5ea5cac635d7c1bc1dfce35bba89444e34b670929f",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_gmail_history_sync.py",
+    "source_sha256": "d4ff9cf7221167308b879e71b1f2f6c6839f1663152a8a12f2fa3bc25b66619e",
+    "export_sha256": "d4ff9cf7221167308b879e71b1f2f6c6839f1663152a8a12f2fa3bc25b66619e",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_initial_template_router.py",
+    "source_sha256": "e1c25c66a0a3ca2b05f6ef56f0f7775a6e02307c186b007142b18be8465392e2",
+    "export_sha256": "db89b5a845394babd44b5a0e8aed6f3c2a33837c156ddf6811174960a5a6c11f",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "tests/test_reviewed_cardless.py",
+    "source_sha256": "6f5c0004d4efa1c1579d77619d35dd790bc8c299475ff1a61432c7c33606bf79",
+    "export_sha256": "6f5c0004d4efa1c1579d77619d35dd790bc8c299475ff1a61432c7c33606bf79",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/reply-context.test.mjs",
+    "source_sha256": "27bb71f48102339a202a4b61003a6468dddf9685ee2887208e5f9cfe1e430f01",
+    "export_sha256": "27bb71f48102339a202a4b61003a6468dddf9685ee2887208e5f9cfe1e430f01",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_inbox_sync.py",
+    "source_sha256": "2bfbeb5e285096a190d6c03bfb047e3e73555d2e7471b4556ce8bc3e47b5f8f9",
+    "export_sha256": "f0650e9dd941beb9c4cbbb078de842c5bf11341f2f083d32d7af9c9d4c0b5f70",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "tests/test_outreach_scheduler.py",
+    "source_sha256": "8cc1c8d1281d0ecd476c4f072749c556507d979bd0b2b7176c7e6a8ecd674761",
+    "export_sha256": "8cc1c8d1281d0ecd476c4f072749c556507d979bd0b2b7176c7e6a8ecd674761",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_reviewed_offer_trial.py",
+    "source_sha256": "ebc1786e74f5cf9a8962c16f01a37f09de41d4523f320675419b5a1b43c6db6b",
+    "export_sha256": "ebc1786e74f5cf9a8962c16f01a37f09de41d4523f320675419b5a1b43c6db6b",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_gmail_reviewed_reply.py",
+    "source_sha256": "16a4f5272be221d15749d1c0b23d7b5da8db4a494e3bb1bbe6859eb378e7145c",
+    "export_sha256": "16a4f5272be221d15749d1c0b23d7b5da8db4a494e3bb1bbe6859eb378e7145c",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_merge_lead_discovery.py",
+    "source_sha256": "de77602e4ee8eb169acb6c3dbd94ae4bfbdfe9e57c0a83af5d55491c634d9f90",
+    "export_sha256": "de77602e4ee8eb169acb6c3dbd94ae4bfbdfe9e57c0a83af5d55491c634d9f90",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_creator_data_agent.py",
+    "source_sha256": "ec94471186c1d42f07712a1df2b21d76c66023677c7b001d3e4fe340172c76b7",
+    "export_sha256": "ec94471186c1d42f07712a1df2b21d76c66023677c7b001d3e4fe340172c76b7",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_creator_quote_currency.py",
+    "source_sha256": "f23358ac8c2f53e1822ccd01345a3d719b56c89335e6207cf56b1522846fc9d7",
+    "export_sha256": "f23358ac8c2f53e1822ccd01345a3d719b56c89335e6207cf56b1522846fc9d7",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_sender_restrictions.py",
+    "source_sha256": "bcd1ab3b03b91a5b7226fb7f195eeb4d3504a588eb1eb5e954890ce46b30fc7d",
+    "export_sha256": "bcd1ab3b03b91a5b7226fb7f195eeb4d3504a588eb1eb5e954890ce46b30fc7d",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_activity_slot_replacement.py",
+    "source_sha256": "468970d7d96402114751565d851b05fd0f062140daee3c3c2fbc0656e38901a3",
+    "export_sha256": "468970d7d96402114751565d851b05fd0f062140daee3c3c2fbc0656e38901a3",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_daily750_queue.py",
+    "source_sha256": "daea45df90d9a6b18e24fbd240e4a9cf2557c2a058a13246a21b31d25ba52955",
+    "export_sha256": "daea45df90d9a6b18e24fbd240e4a9cf2557c2a058a13246a21b31d25ba52955",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/failed-address.test.mjs",
+    "source_sha256": "a5a9a36e4306681eaba79222412e998b7f59ff9497856e96112625860a5128e3",
+    "export_sha256": "a5a9a36e4306681eaba79222412e998b7f59ff9497856e96112625860a5128e3",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_build_contact_master.py",
+    "source_sha256": "afa125e9b493bc67d5cec44ce8a8a94f2a62754ddec65d9215a317745f8d2fae",
+    "export_sha256": "afa125e9b493bc67d5cec44ce8a8a94f2a62754ddec65d9215a317745f8d2fae",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_send_coupon_replies.py",
+    "source_sha256": "414cbe1965af757b469d0249fc9bfa1b550ca2ac2bfb286e9ae3f4dcbfab0e90",
+    "export_sha256": "cd3ee466adfd9a8031e1b9edac0b6d00d0965fab70c2370e9d5abaf6c3ce5304",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "tests/test_reviewed_service_case.py",
+    "source_sha256": "11c0ef43fd646397dd1481bb8c54b46555b7414aba3ab33be2e97f3bbb20386f",
+    "export_sha256": "11c0ef43fd646397dd1481bb8c54b46555b7414aba3ab33be2e97f3bbb20386f",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_outreach_window_guard.py",
+    "source_sha256": "9f73195272f8afc5f0f87c3b54542b6fcc35dbfd1b617a8e427fda78704ae2b2",
+    "export_sha256": "9f73195272f8afc5f0f87c3b54542b6fcc35dbfd1b617a8e427fda78704ae2b2",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_creator_activity.py",
+    "source_sha256": "1c7b25c6e3a2396ad235ebdc7f87ccce092d2c49608eba9d87ed710a8131cc72",
+    "export_sha256": "1c7b25c6e3a2396ad235ebdc7f87ccce092d2c49608eba9d87ed710a8131cc72",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_reviewed_simple_trial.py",
+    "source_sha256": "c3a784a75292ed5b2ffb582e91c891eddd2d64c008df1720dac3a46242fd563e",
+    "export_sha256": "c3a784a75292ed5b2ffb582e91c891eddd2d64c008df1720dac3a46242fd563e",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_delivery_recovery.py",
+    "source_sha256": "4f5d53f40743db6c47c0e8d291ebf4d8aa53b5ab9691ce4b4f513d99cbce5f1a",
+    "export_sha256": "4f5d53f40743db6c47c0e8d291ebf4d8aa53b5ab9691ce4b4f513d99cbce5f1a",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_outreach_health_check.py",
+    "source_sha256": "be02f0c5acb9aa3c8de3d64be282a6c14fcca94233f88ffa73d68fe073b30128",
+    "export_sha256": "be02f0c5acb9aa3c8de3d64be282a6c14fcca94233f88ffa73d68fe073b30128",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_continuous_lead_discovery.py",
+    "source_sha256": "40362f9da9ba770fcbddd83866034b6e5f72586f6e70de4213da9f16684d20cb",
+    "export_sha256": "40362f9da9ba770fcbddd83866034b6e5f72586f6e70de4213da9f16684d20cb",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_creator_feedback.py",
+    "source_sha256": "ee2b342ea4eb7f94acc5725a261f633a2d6749eb9a9858e88e22ac9e522fcbc2",
+    "export_sha256": "ee2b342ea4eb7f94acc5725a261f633a2d6749eb9a9858e88e22ac9e522fcbc2",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tests/test_reviewed_contact_hold.py",
+    "source_sha256": "98f5cb0278470eafdb9d4d237827162b2b24ef55b3d9d0c7c6615d4493497c24",
+    "export_sha256": "98f5cb0278470eafdb9d4d237827162b2b24ef55b3d9d0c7c6615d4493497c24",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/feedback-center.tsx",
+    "source_sha256": "a978956d5f37ebacbafeb5b76f426a1b6a7f5b8320dc4dab401b6c5cbf142a20",
+    "export_sha256": "a978956d5f37ebacbafeb5b76f426a1b6a7f5b8320dc4dab401b6c5cbf142a20",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/billing-center.tsx",
+    "source_sha256": "c597f0e7220a9f8f6e5789316bed325a4a6315ed80f413f5448441decf8a8ecc",
+    "export_sha256": "c597f0e7220a9f8f6e5789316bed325a4a6315ed80f413f5448441decf8a8ecc",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/chatgpt-auth.ts",
+    "source_sha256": "17a965f8948b21510cdf8ecbd70c5fdf58100e10970463f6a8fd2cc4795f8044",
+    "export_sha256": "17a965f8948b21510cdf8ecbd70c5fdf58100e10970463f6a8fd2cc4795f8044",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/operations-center.tsx",
+    "source_sha256": "690c43fc5a91d1649070f8f47c696afabac66cac2a51a7673da56ee8d6e77aef",
+    "export_sha256": "690c43fc5a91d1649070f8f47c696afabac66cac2a51a7673da56ee8d6e77aef",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/layout.tsx",
+    "source_sha256": "05ec6470e8bee15f9f315edf687a78a1b57f83420afe75a46fb68f77e61c41b4",
+    "export_sha256": "05ec6470e8bee15f9f315edf687a78a1b57f83420afe75a46fb68f77e61c41b4",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/conversation-center.tsx",
+    "source_sha256": "339f6e09f033cf6c15eabb442e77c515afe3bac860ad085dae6c454b8eb2d6de",
+    "export_sha256": "339f6e09f033cf6c15eabb442e77c515afe3bac860ad085dae6c454b8eb2d6de",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/page.tsx",
+    "source_sha256": "1f808a63a27369251bb26aeb165643ca9743a62122de58fa6161d99b30c9d6c5",
+    "export_sha256": "1f808a63a27369251bb26aeb165643ca9743a62122de58fa6161d99b30c9d6c5",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/raw-sql.d.ts",
+    "source_sha256": "462e3e80858dc90fb915112f64d579b2d944742ea500b3f1cccc0399b772ccb8",
+    "export_sha256": "462e3e80858dc90fb915112f64d579b2d944742ea500b3f1cccc0399b772ccb8",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/globals.css",
+    "source_sha256": "68db17108d1ba8c9423e457204187da3cfea91ff399ad658060af542a2e84620",
+    "export_sha256": "68db17108d1ba8c9423e457204187da3cfea91ff399ad658060af542a2e84620",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/lib/feedback-db.ts",
+    "source_sha256": "6af6d129dd68dc11600d951783291f0b323ff89f2501a3e03a62bfae781976e3",
+    "export_sha256": "6af6d129dd68dc11600d951783291f0b323ff89f2501a3e03a62bfae781976e3",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/lib/reply-context.ts",
+    "source_sha256": "bee7e1c8302c906b1dc3d33736b77dc9c716b69fd103463c6ea0a5c5459d3041",
+    "export_sha256": "bee7e1c8302c906b1dc3d33736b77dc9c716b69fd103463c6ea0a5c5459d3041",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/lib/reply-context-snapshot.sql",
+    "source_sha256": "3842c2af712eac9c1ed68db586acae09c8ac6dbf2dfe7c832ee07f52852e12b8",
+    "export_sha256": "3842c2af712eac9c1ed68db586acae09c8ac6dbf2dfe7c832ee07f52852e12b8",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/lib/mail-delivery.ts",
+    "source_sha256": "6bcc680ac5016c3d934b31b77f5b1c09981da49a9f9588fd9470ac0ac071bd8a",
+    "export_sha256": "6bcc680ac5016c3d934b31b77f5b1c09981da49a9f9588fd9470ac0ac071bd8a",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/lib/reply-text.ts",
+    "source_sha256": "e04e8ec68a29f1b6fb86972c9b246d4b1c4cad48ed547d78e9b6d0194eed4337",
+    "export_sha256": "e04e8ec68a29f1b6fb86972c9b246d4b1c4cad48ed547d78e9b6d0194eed4337",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/lib/microsoft.ts",
+    "source_sha256": "1270da248110dabb98476a52b8694fa9b2dad151bc8f2afdbbe542a728d41f90",
+    "export_sha256": "437d275aeabba7ea61a1e1ccbded0438e3c3d0c9ebb66b6d23c02115b9e29a94",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "app/coupon-audit/page.tsx",
+    "source_sha256": "ac450502fbf394a6f3cb243495de5615c949c3be3937166ffcec37cdb20044fd",
+    "export_sha256": "ac450502fbf394a6f3cb243495de5615c949c3be3937166ffcec37cdb20044fd",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/billing/page.tsx",
+    "source_sha256": "4adf1ebaf73d39d23cfcb98c984664b28750371933b70aaf175d3a3b832a4db8",
+    "export_sha256": "4adf1ebaf73d39d23cfcb98c984664b28750371933b70aaf175d3a3b832a4db8",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/api/operations/route.ts",
+    "source_sha256": "4d3707447eebf08ccf4babc720f88774a4b81a1be0e1811b1e04929c417aa66c",
+    "export_sha256": "4d3707447eebf08ccf4babc720f88774a4b81a1be0e1811b1e04929c417aa66c",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/api/feedback/route.ts",
+    "source_sha256": "30ecda96db9fb24dc0ca24ba2836dcf1b2135bb73cde6f755d55594a9a2544af",
+    "export_sha256": "30ecda96db9fb24dc0ca24ba2836dcf1b2135bb73cde6f755d55594a9a2544af",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/api/outreach/route.ts",
+    "source_sha256": "df007f4a7901fe59657fb201658dbaa5d1d2a902fcf139bacfdec20e30820c0f",
+    "export_sha256": "1dce1d5201c88ec1af8e9680cf8d40c831187fc4627cbcaf655fa500595c19b4",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "app/api/microsoft/callback/route.ts",
+    "source_sha256": "eb6f4ea63c7c1528d2cd7a94f99ab8c1c8ed2b2b045279ac89bed8ca2002d153",
+    "export_sha256": "eb6f4ea63c7c1528d2cd7a94f99ab8c1c8ed2b2b045279ac89bed8ca2002d153",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/api/microsoft/sync/route.ts",
+    "source_sha256": "61efb372f4037915bd3d3992922a68b3bb1b50d581a72b2768b12a71ae31806e",
+    "export_sha256": "61efb372f4037915bd3d3992922a68b3bb1b50d581a72b2768b12a71ae31806e",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "app/api/microsoft/connect/route.ts",
+    "source_sha256": "d429c6eab2e0e36f5db6d8498e49800d73d4d99d34743c003395a0a5f2e4a20e",
+    "export_sha256": "d429c6eab2e0e36f5db6d8498e49800d73d4d99d34743c003395a0a5f2e4a20e",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/schema.ts",
+    "source_sha256": "d0f18fc46a0657506c3575c0f27197c4dd48039cb39b82450c295b1981f2968b",
+    "export_sha256": "d0f18fc46a0657506c3575c0f27197c4dd48039cb39b82450c295b1981f2968b",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/0001_timezone_capacity.sql",
+    "source_sha256": "91c76d255261aa9ea31179ee1c70d6208f73570f0f92c235eca21d73ee1efd8c",
+    "export_sha256": "91c76d255261aa9ea31179ee1c70d6208f73570f0f92c235eca21d73ee1efd8c",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/0004_two_sender_250_schedule.sql",
+    "source_sha256": "65dc8402445f12039e4c32fa3f0added235c1b85365643302c61ce35e41790da",
+    "export_sha256": "65dc8402445f12039e4c32fa3f0added235c1b85365643302c61ce35e41790da",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/0002_google_workspace_sender.sql",
+    "source_sha256": "f8f5085a65245c49fc74548200a56926a7964c85b578571ebbcbb138a767041c",
+    "export_sha256": "f8f5085a65245c49fc74548200a56926a7964c85b578571ebbcbb138a767041c",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/20260921_approved_rate_scope_trial_template.sql",
+    "source_sha256": "d8ba0e3b28b512a5d4352a36d2a5cab35a13f37858a0f18199ccf6cbe94ce51a",
+    "export_sha256": "d8ba0e3b28b512a5d4352a36d2a5cab35a13f37858a0f18199ccf6cbe94ce51a",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/0003_human_coupon_copy.sql",
+    "source_sha256": "224087477afc50b693e6b8e33e49ab79efff54bef21dff9b6501e022e0d7ed2a",
+    "export_sha256": "224087477afc50b693e6b8e33e49ab79efff54bef21dff9b6501e022e0d7ed2a",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/index.ts",
+    "source_sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd",
+    "export_sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/0005_microsoft_300_schedule.sql",
+    "source_sha256": "9cb6b804fbb5e1c52c5e5b345c67a1e17b4ec5c1da0b02f4f6f9ce1e956e6989",
+    "export_sha256": "9cb6b804fbb5e1c52c5e5b345c67a1e17b4ec5c1da0b02f4f6f9ce1e956e6989",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "db/0000_initial.sql",
+    "source_sha256": "40c02c0b476c9faddbc90b3fdff1af1468bcf183ad36ec4c6b0608c150b86c59",
+    "export_sha256": "40c02c0b476c9faddbc90b3fdff1af1468bcf183ad36ec4c6b0608c150b86c59",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "worker/index.ts",
+    "source_sha256": "2ed36d7fa996e946d9d7695c5925e7760246f6bf8fa35c06f1bc515c087dc450",
+    "export_sha256": "2ed36d7fa996e946d9d7695c5925e7760246f6bf8fa35c06f1bc515c087dc450",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-merger.plist",
+    "source_sha256": "b4fd6869bc4df919f422ed0b5d4d0b872349a977758321dfb2af46059b8e4f9a",
+    "export_sha256": "7d24b9c55cfb27d1853808e934c76f8157c5955941e077a932edbb1744cc0999",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.creator-followup-agent.plist",
+    "source_sha256": "1845b558c2cfb7e7899e799508d93316bb1d1a9964930add9afc1daa0a8f7222",
+    "export_sha256": "db6042de8921d74f8bf34e6a25c4bc0265c3999cfe76d4ac271b51f077820058",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-collector-03.plist",
+    "source_sha256": "1b51c1bf3b93fa05476ed5d6badd3891834426a4d4726a59ad337c7deb2effa6",
+    "export_sha256": "fb577ef16f0c00f9f10d23477cd7b352c901633c4bdac55de65c23d9cdccce70",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/videocoding-dashboard.screenrc",
+    "source_sha256": "4c972e5f3d73a6e06f895055e11d11a6e80178bb4182a5ac2f27d3ca9ad8c4d5",
+    "export_sha256": "a70afa7e81ef73af1853561acb536fae3cf052dcc5fbf11d11a05cac619d48f2",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-collector-07.plist",
+    "source_sha256": "58ad9e47b4967716676e04f9d85c06717ea129ea5f0874c730340cfcd8186c94",
+    "export_sha256": "87a70604516c965b9b52fe565d51a710f7c6e2fc353c87668e7d6f07111d2157",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-collector-05.plist",
+    "source_sha256": "321b9daf3ed5b64bb3b28cdb90e0403e9e8f2f5b7d36fabb707f76c21c5bffa0",
+    "export_sha256": "59e31aa7d275629fb4ef5440104f59b8514ec2325241909b15855dbfac9a633d",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.gmail-tunnel.plist",
+    "source_sha256": "f7dd2640e6be2a280878bda7de3364eebf9ee9fe2c97d971e8137c55681a8ab4",
+    "export_sha256": "229310aac050f3dfd54029b5153808a80c5e81e42a64ba1b0d833ffbc205c35c",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-collector-02.plist",
+    "source_sha256": "288b9a09a2606d546e4ebaae23b248d23d205ca3bfc8492b8077c62199913b35",
+    "export_sha256": "d613158c5700d678fce77e844c1b4f056a4cf6a3049e16a1efef9006de38d68a",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.reply-template-router.plist",
+    "source_sha256": "a53e3b6d08c22b48c57882893e2dec0b8cc2f5cb6d8635486d5ff4dcc487b88c",
+    "export_sha256": "002e6e866a06e5f0445805aeac184c4eb7ee45c2b184d480d87add124e133946",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.dashboard.plist",
+    "source_sha256": "990ba6d7914c4d47171a01ffc2279f0067c13272059e0bfa2c82c83671c5f98f",
+    "export_sha256": "ca76a4d36360b549f007f4911aeac1d982720ab7404461b61bc92042a6373440",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/videocoding-outreach.service",
+    "source_sha256": "35e84ba943b3e1550c33466685cf79b4560e1559a15a55c252676c82ce45d331",
+    "export_sha256": "35e84ba943b3e1550c33466685cf79b4560e1559a15a55c252676c82ce45d331",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "deploy/ai.videocoding.outreach-health.plist",
+    "source_sha256": "c916d4ed00d76959083651bade661fa89b02647a83240d104693c87c00c39f90",
+    "export_sha256": "586868ea5e1cc524b1bc35794637c85441620dfc687d2d01c064b22b26931f1e",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-collector-04.plist",
+    "source_sha256": "10df0ecc08eab3cd5fc72172ce2c685915204220d11044a935655d43e149573e",
+    "export_sha256": "be9c24729cc3d530a1537f50f99dd077b37f4fa3e3a4f800dcbc6adcdc306dbc",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.coupon-replies.plist",
+    "source_sha256": "959a258c5c20c933ead7fef20d008a9aa8fd209e428977035cc94ddaa7edf82c",
+    "export_sha256": "988ae8a2e8707fb030f2500261f203568674f7e14f75cd47d59a8020da9aaa51",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.outreach.plist",
+    "source_sha256": "42471318274d8ce52a1eb6ff56d91924b3fced17fe3222853eb7523d690a28f6",
+    "export_sha256": "318353d3e69675cf20a6049e4ba13c08325081487c47680e90510005106bbb7a",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-collector-06.plist",
+    "source_sha256": "c2a5b2d5fe56b8b6a07b41eaef148d86c43f192333ed294095daf5f4b8ed8e03",
+    "export_sha256": "63a54adb3fbac493650ba3f15f4bdb735d165aec183645342559110fa1160eed",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.safe-workflow-replies.plist",
+    "source_sha256": "a68977a806b8524804f532c8e9c280f666363a4e6994a4e0362e4d6185434075",
+    "export_sha256": "69729e766b1cd3790fcff46db3bfcba082b514c7d49bf20d2327c184ff177d85",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-collector-08.plist",
+    "source_sha256": "33332ae420ab181b3b26805fd0e2f0ff436019074cf931387c2ba632d2bccb6f",
+    "export_sha256": "ae10b875141c9a35fbac8bcf441a7e50da1d40a1ff59e650aa88de90693cae1c",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.public-podcast-discovery.plist",
+    "source_sha256": "c26c7379ecf96c1232307ba46b6756c84499fb7bd5eb2380ae118a47b0f20993",
+    "export_sha256": "fc775e16fab9efdc5b579528f15681c5ddae24eb0a25f6eccd9dce0d585e5b06",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.inbox-sync.plist",
+    "source_sha256": "06904dce919efb0a82cfb17eba220f4b3b80f37a0ca021150b085301eb35afd9",
+    "export_sha256": "02f164d08a3868975c2b76b58c09a617fae94c664e6f76b9ae26034e8221d490",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.reply-backlog-router.plist",
+    "source_sha256": "4b12d877aa3eb5c299ac4704e962ba25f21cc997ceaa2b5091795a5dedbb6275",
+    "export_sha256": "846920e84a85389861f1589f487560ede9a2c44f18e8600ddb279c429c62f3fd",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/LOCAL_BILLING.md",
+    "source_sha256": "55871a733446b68dd2734376e4f4e9294a4b0bf161ea51297e8de6e4a171234a",
+    "export_sha256": "55871a733446b68dd2734376e4f4e9294a4b0bf161ea51297e8de6e4a171234a",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "deploy/ai.videocoding.lead-collector.plist",
+    "source_sha256": "a88a02ee97b4402891641aae89aa81fe016f59cf790ffd90e8128958b008c441",
+    "export_sha256": "87dbf5b20a032fe88de9a584e57f14f922bda478cee25c603bcbd43e04ccb841",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/videocoding-outreach.timer",
+    "source_sha256": "57d78696161ade69991d03e07186680f13794acd9dce64d06e05025cceb7f830",
+    "export_sha256": "57d78696161ade69991d03e07186680f13794acd9dce64d06e05025cceb7f830",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "deploy/reply-decision-batch.schema.json",
+    "source_sha256": "8e898a12d0bf864abe9c8e57f5143351a83129fb5c77db8581b470d60128ddd1",
+    "export_sha256": "8e898a12d0bf864abe9c8e57f5143351a83129fb5c77db8581b470d60128ddd1",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "deploy/ai.videocoding.creator-data-agent.plist",
+    "source_sha256": "a24f017944c1762079e947e5698db5cfd6c422f19a6a9adbc081ef520eb74562",
+    "export_sha256": "8c7c4ba86c32c3eb966fa81205aa52df92787dd2bfd4d0288b225ae386ef817f",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "deploy/ai.videocoding.gmail-outreach.plist",
+    "source_sha256": "459d15e67ef969caeb421f9978e786bc8dd3a27f8fd36800e226f8702e3557ed",
+    "export_sha256": "731b124a5e64ec1f7e67da324e4c7d1fc9ccb6768cf6a20610a1974357e4cc90",
+    "sanitized": true,
+    "changed_from_original": true
+  },
+  {
+    "path": "build/billing-local.mjs",
+    "source_sha256": "556b03586c66fbb556e1a77e8ed9bda2d6f57d9a9f5812885801ff66dd276078",
+    "export_sha256": "556b03586c66fbb556e1a77e8ed9bda2d6f57d9a9f5812885801ff66dd276078",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "build/sites-vite-plugin.ts",
+    "source_sha256": "81b7cbfaeb970611572256aba0e313425beb3809f6426f63750696c15d9c756b",
+    "export_sha256": "81b7cbfaeb970611572256aba0e313425beb3809f6426f63750696c15d9c756b",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0003_public_creator_discovery.sql",
+    "source_sha256": "c63b4d705a0497f25fd165c521d1d7d69d6c025b667f4af93c25fd6a6247ba1b",
+    "export_sha256": "c63b4d705a0497f25fd165c521d1d7d69d6c025b667f4af93c25fd6a6247ba1b",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0001_microsoft_inbox_sync.sql",
+    "source_sha256": "c6c1757cc91e874d21d2c185c998eb4fa3f9a095503f44472385c6d6ecb3a337",
+    "export_sha256": "c6c1757cc91e874d21d2c185c998eb4fa3f9a095503f44472385c6d6ecb3a337",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0006_human_coupon_copy.sql",
+    "source_sha256": "c07e6860ed895fca5d542d8e9c089a3687d1e3607726486658ba235f2df443eb",
+    "export_sha256": "c07e6860ed895fca5d542d8e9c089a3687d1e3607726486658ba235f2df443eb",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0008_dry_blackheart.sql",
+    "source_sha256": "9eb25cc828cadd81d02478dd44c88200b79b34c9a1434d0a0ab0087d531d85f2",
+    "export_sha256": "9eb25cc828cadd81d02478dd44c88200b79b34c9a1434d0a0ab0087d531d85f2",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0008_microsoft_300_schedule.sql",
+    "source_sha256": "5233ac1c16b66fbdef9042300687af89f59a41bc866ff59752424eca19f322e6",
+    "export_sha256": "5233ac1c16b66fbdef9042300687af89f59a41bc866ff59752424eca19f322e6",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0000_same_cammi.sql",
+    "source_sha256": "94fdaa2c37cb532a1e22a4ce4f254585339cadc4169124215d81a90f1dee9f7f",
+    "export_sha256": "94fdaa2c37cb532a1e22a4ce4f254585339cadc4169124215d81a90f1dee9f7f",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0007_two_sender_250_schedule.sql",
+    "source_sha256": "6122d95ebbd83724cb7f9685b19b8ce35f02386544ae8c45c999809f5462ffde",
+    "export_sha256": "6122d95ebbd83724cb7f9685b19b8ce35f02386544ae8c45c999809f5462ffde",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0004_discovery_new_contact_goal.sql",
+    "source_sha256": "6e08edfb41cef3ef3f963403a3697a14a3a858f1e00bec6c2060d078f261f45d",
+    "export_sha256": "6e08edfb41cef3ef3f963403a3697a14a3a858f1e00bec6c2060d078f261f45d",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0005_google_workspace_sender.sql",
+    "source_sha256": "793f90b54447518a714b9c3c561aabde76d0b91b1004f0aacf77aa4339776175",
+    "export_sha256": "793f90b54447518a714b9c3c561aabde76d0b91b1004f0aacf77aa4339776175",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/0002_creator_operations.sql",
+    "source_sha256": "6177c6aec424fd8cdf06856160f1af7e782c6354b13d012c1f2d37011bcb13a1",
+    "export_sha256": "6177c6aec424fd8cdf06856160f1af7e782c6354b13d012c1f2d37011bcb13a1",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/meta/0003_snapshot.json",
+    "source_sha256": "44ce00634947b2f0787fa678e7e809b56499fcd8a5b54a245267690874ba5664",
+    "export_sha256": "44ce00634947b2f0787fa678e7e809b56499fcd8a5b54a245267690874ba5664",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/meta/0000_snapshot.json",
+    "source_sha256": "99eb1ea221903bd37ce4ecc0d6d767e0889be8014caff9e418d206cfc7e5ed61",
+    "export_sha256": "99eb1ea221903bd37ce4ecc0d6d767e0889be8014caff9e418d206cfc7e5ed61",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/meta/0008_snapshot.json",
+    "source_sha256": "92500a794437bdfa48f302e21642512b8eb3015c8d62c3cb53f317070e06d906",
+    "export_sha256": "92500a794437bdfa48f302e21642512b8eb3015c8d62c3cb53f317070e06d906",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/meta/_journal.json",
+    "source_sha256": "b5d32cb04e1e6aeef8ea4250577d79abf17a5f6e07f3624c8941dbd56fb1715e",
+    "export_sha256": "b5d32cb04e1e6aeef8ea4250577d79abf17a5f6e07f3624c8941dbd56fb1715e",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/meta/0001_snapshot.json",
+    "source_sha256": "8c2696e163028f73a50a7dac256f0908e01a034573029e86378caca746fc55ac",
+    "export_sha256": "8c2696e163028f73a50a7dac256f0908e01a034573029e86378caca746fc55ac",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle/meta/0002_snapshot.json",
+    "source_sha256": "d457d6c80b2dbd1b7dc1773c57b17bfb981036b41999f97b5d8aaa31be1eabb4",
+    "export_sha256": "d457d6c80b2dbd1b7dc1773c57b17bfb981036b41999f97b5d8aaa31be1eabb4",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "examples/d1/db/schema.ts",
+    "source_sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454",
+    "export_sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "examples/d1/app/api/notes/route.ts",
+    "source_sha256": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909",
+    "export_sha256": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "package.json",
+    "source_sha256": "985fb194062c2f6cd633517e7b67976d6fd76582c83fca7f4c1f5d7d53428ef8",
+    "export_sha256": "985fb194062c2f6cd633517e7b67976d6fd76582c83fca7f4c1f5d7d53428ef8",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "package-lock.json",
+    "source_sha256": "9b7d1d82d91014594b6a309112a234d3a490f0fb9159cb333c062ca94389e064",
+    "export_sha256": "9b7d1d82d91014594b6a309112a234d3a490f0fb9159cb333c062ca94389e064",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "tsconfig.json",
+    "source_sha256": "be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3",
+    "export_sha256": "be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "postcss.config.mjs",
+    "source_sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+    "export_sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "vite.config.ts",
+    "source_sha256": "b3deaf22f527331e9c13d8709730dd9c631d788fc23d3f381277484e4d79c4ea",
+    "export_sha256": "8c73d3a3ede50213ad0d6d9126ce9da10b07071349f5d0c600d0e8cca781f913",
+    "sanitized": false,
+    "changed_from_original": true
+  },
+  {
+    "path": "eslint.config.mjs",
+    "source_sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493",
+    "export_sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "next.config.ts",
+    "source_sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+    "export_sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+    "sanitized": false,
+    "changed_from_original": false
+  },
+  {
+    "path": "drizzle.config.ts",
+    "source_sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
+    "export_sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
+    "sanitized": false,
+    "changed_from_original": false
+  }
+]

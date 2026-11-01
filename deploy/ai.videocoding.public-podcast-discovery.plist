@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>ai.videocoding.public-podcast-discovery</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/OPERATOR/.videocoding-outreach-runtime/.lead-collector-venv313/bin/python</string>
+    <string>/Users/OPERATOR/.videocoding-outreach-runtime/scripts/public_podcast_discovery.py</string>
+    <string>--limit</string>
+    <string>25</string>
+    <string>--workers</string>
+    <string>12</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime</string>
+  <key>StartInterval</key>
+  <integer>21600</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/public-podcast-discovery.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/public-podcast-discovery.error.log</string>
+</dict>
+</plist>

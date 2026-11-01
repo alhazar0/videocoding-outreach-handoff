@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/Users/OPERATOR/.videocoding-outreach-runtime/.lead-collector-venv313/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+	</dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>ai.videocoding.lead-collector-07</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/OPERATOR/.videocoding-outreach-runtime/.lead-collector-venv313/bin/python</string>
+		<string>/Users/OPERATOR/.videocoding-outreach-runtime/scripts/continuous_lead_discovery.py</string>
+		<string>--db</string>
+		<string>/Users/OPERATOR/.videocoding-outreach-runtime/data/lead-discovery.sqlite</string>
+		<string>--continuous</string>
+		<string>--results-per-query</string>
+		<string>100</string>
+		<string>--channel-limit</string>
+		<string>100</string>
+		<string>--channel-workers</string>
+		<string>6</string>
+		<string>--min-sleep-seconds</string>
+		<string>30</string>
+		<string>--max-sleep-seconds</string>
+		<string>45</string>
+		<string>--startup-delay-seconds</string>
+		<string>35</string>
+		<string>--worker-key</string>
+		<string>collector-07</string>
+		<string>--skip-seed</string>
+		<string>--lease-seconds</string>
+		<string>1800</string>
+		<string>--focus</string>
+		<string>knowledge</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/lead-collector-07.error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/lead-collector-07.log</string>
+	<key>ThrottleInterval</key>
+	<integer>30</integer>
+	<key>WorkingDirectory</key>
+	<string>/Users/OPERATOR/.videocoding-outreach-runtime</string>
+</dict>
+</plist>

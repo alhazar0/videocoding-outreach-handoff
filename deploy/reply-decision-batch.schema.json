@@ -1,0 +1,171 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["decisions"],
+  "properties": {
+    "decisions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "intent",
+          "template_key",
+          "confidence",
+          "language",
+          "registered_email",
+          "test_status",
+          "questions",
+          "risk_level",
+          "needs_human",
+          "rationale",
+          "secondary_intents",
+          "current_request_summary",
+          "conversation_state",
+          "evidence",
+          "contradictions",
+          "missing_context",
+          "context_complete",
+          "template_gap",
+          "template_gap_reason",
+          "proposed_template"
+        ],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1 },
+          "intent": {
+            "type": "string",
+            "enum": [
+              "wants_test",
+              "activation_help",
+              "cardless_trial",
+              "plans_to_test",
+              "claims_tested",
+              "price_received",
+              "price_and_tested",
+              "product_question",
+              "product_issue",
+              "asks_campaign_details",
+              "contract_terms",
+              "privacy_question",
+              "complaint",
+              "not_interested",
+              "automated",
+              "thanks_only",
+              "other"
+            ]
+          },
+          "template_key": {
+            "type": ["string", "null"],
+            "enum": [
+              "coupon_test",
+              "coupon_test_t2v_knowledge_v1",
+              "coupon_test_rate_received",
+              "coupon_test_campaign_details",
+              "campaign_details_after_coupon",
+              "ask_registered_email",
+              "product_question_hold",
+              "test_claim_checking",
+              "test_planned_ack",
+              "rate_received",
+              null
+            ]
+          },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "language": { "type": "string", "maxLength": 80 },
+          "registered_email": { "type": ["string", "null"], "maxLength": 320 },
+          "test_status": {
+            "type": "string",
+            "enum": ["not_started", "wants_test", "testing", "completed", "unknown"]
+          },
+          "questions": {
+            "type": "array",
+            "maxItems": 10,
+            "items": { "type": "string", "maxLength": 500 }
+          },
+          "risk_level": { "type": "string", "enum": ["low", "medium", "high"] },
+          "needs_human": { "type": "boolean" },
+          "rationale": { "type": "string", "maxLength": 2000 },
+          "secondary_intents": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 12,
+            "items": {
+              "type": "string",
+              "enum": [
+                "wants_test",
+                "activation_help",
+                "cardless_trial",
+                "plans_to_test",
+                "claims_tested",
+                "price_received",
+                "price_and_tested",
+                "product_question",
+                "product_issue",
+                "asks_campaign_details",
+                "contract_terms",
+                "privacy_question",
+                "complaint",
+                "not_interested",
+                "automated",
+                "thanks_only",
+                "other"
+              ]
+            }
+          },
+          "current_request_summary": { "type": "string", "maxLength": 2000 },
+          "conversation_state": {
+            "type": "string",
+            "enum": ["new_request", "continues_prior", "supersedes_prior", "conflicts_with_prior", "ambiguous"]
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 24,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["intent", "source", "text"],
+              "properties": {
+                "intent": { "type": "string", "maxLength": 100 },
+                "source": { "type": "string", "enum": ["current_message", "thread_history", "profile_state"] },
+                "text": { "type": "string", "maxLength": 500 }
+              }
+            }
+          },
+          "contradictions": {
+            "type": "array",
+            "maxItems": 12,
+            "items": { "type": "string", "maxLength": 500 }
+          },
+          "missing_context": {
+            "type": "array",
+            "maxItems": 12,
+            "items": { "type": "string", "maxLength": 500 }
+          },
+          "context_complete": { "type": "boolean" },
+          "template_gap": { "type": "boolean" },
+          "template_gap_reason": { "type": ["string", "null"], "maxLength": 1000 },
+          "proposed_template": {
+            "type": ["object", "null"],
+            "additionalProperties": false,
+            "required": ["name", "stage", "subject", "body", "required_context"],
+            "properties": {
+              "name": { "type": "string", "maxLength": 300 },
+              "stage": { "type": "string", "maxLength": 120 },
+              "subject": { "type": "string", "maxLength": 300 },
+              "body": { "type": "string", "maxLength": 12000 },
+              "required_context": {
+                "type": "array",
+                "maxItems": 12,
+                "items": { "type": "string", "maxLength": 300 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+[Unit]
+Description=Start VideoCoding outreach daily at 08:00 America/New_York
+
+[Timer]
+OnCalendar=*-*-* 08:00:00 America/New_York
+Persistent=true
+RandomizedDelaySec=60
+Unit=videocoding-outreach.service
+
+[Install]
+WantedBy=timers.target

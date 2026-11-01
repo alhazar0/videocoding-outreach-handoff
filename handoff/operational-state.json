@@ -1,0 +1,31 @@
+{
+  "heartbeat_status": "PAUSED",
+  "disabled_videocoding_jobs": [
+    "ai.videocoding.coupon-replies",
+    "ai.videocoding.creator-data-agent",
+    "ai.videocoding.creator-followup-agent",
+    "ai.videocoding.gmail-outreach",
+    "ai.videocoding.gmail-tunnel",
+    "ai.videocoding.inbox-sync",
+    "ai.videocoding.initial-queue-replenisher",
+    "ai.videocoding.lead-collector",
+    "ai.videocoding.lead-collector-02",
+    "ai.videocoding.lead-collector-03",
+    "ai.videocoding.lead-collector-04",
+    "ai.videocoding.lead-collector-05",
+    "ai.videocoding.lead-collector-06",
+    "ai.videocoding.lead-collector-07",
+    "ai.videocoding.lead-collector-08",
+    "ai.videocoding.lead-merger",
+    "ai.videocoding.outreach",
+    "ai.videocoding.outreach-health",
+    "ai.videocoding.public-podcast-discovery",
+    "ai.videocoding.reply-backlog-router",
+    "ai.videocoding.reply-template-router",
+    "ai.videocoding.safe-workflow-replies",
+    "ai.videocoding.send-window-awake"
+  ],
+  "no_send_or_grant_performed": true,
+  "production_code_changed": false,
+  "production_database_mode": "read_only"
+}

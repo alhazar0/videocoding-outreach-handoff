@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>ai.videocoding.creator-followup-agent</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/python3</string>
+    <string>/Users/OPERATOR/.videocoding-outreach-runtime/scripts/creator_followup_agent.py</string>
+    <string>--send</string>
+    <string>--limit</string>
+    <string>5</string>
+    <string>--daily-limit</string>
+    <string>250</string>
+    <string>--gmail-daily-limit</string>
+    <string>25</string>
+    <string>--min-interval-seconds</string>
+    <string>60</string>
+    <string>--max-interval-seconds</string>
+    <string>180</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime</string>
+  <key>StartInterval</key>
+  <integer>600</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/creator-followup-agent.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/OPERATOR/.videocoding-outreach-runtime/logs/creator-followup-agent.error.log</string>
+  <key>ProcessType</key>
+  <string>Standard</string>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+{
+  "tracked_files_scanned": 202,
+  "exact_contact_or_registered_email_hits": [],
+  "credential_pattern_hits": [],
+  "forbidden_file_hits": [],
+  "private_db_comparison_performed": true,
+  "scope": "Current tracked file contents; new export has no imported history. Pattern scan cannot prove absence of every possible secret."
+}

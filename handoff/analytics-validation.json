@@ -1,0 +1,13 @@
+{
+  "all_initial_outcomes_reconcile": true,
+  "accepted_exact": true,
+  "category_denominators_reconcile": true,
+  "template_replies_reconcile": true,
+  "rate_monotonic": true,
+  "no_redeemed_record": true,
+  "completed_unique_sql": true,
+  "oct20_final253": true,
+  "schema_integrity": true,
+  "schema_has_no_contact_rows": true,
+  "all": true
+}

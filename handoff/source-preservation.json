@@ -1,0 +1,9 @@
+{
+  "original_files_checked": 169,
+  "all_unchanged": true,
+  "excluded_personal_one_off_scripts": [
+    "scripts/send_pako_reviewed_trial_20260907.py",
+    "scripts/seed_reviewed_feedback_20260907.py"
+  ],
+  "associated_test_excluded": "tests/test_pako_reviewed_trial.py"
+}

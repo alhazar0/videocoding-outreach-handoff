@@ -1,0 +1,680 @@
+{
+  "note": "Historical configuration only. Does not authorize execution; full bodies in private operational DB.",
+  "templates": [
+    {
+      "template_key": "account_not_found",
+      "stage": "account_not_found",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "ask_rate",
+      "stage": "price_needed",
+      "risk_level": "medium",
+      "version": 3,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "ask_registered_email",
+      "stage": "membership_email_needed",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "budget_under_5000_trial_20260913",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "campaign_details_after_coupon",
+      "stage": "test_pending",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[\"coupon_sent\",\"no_test_started\",\"no_rate\",\"no_contract_or_product_issue\"]"
+    },
+    {
+      "template_key": "candidate_asks_campaign_details_19493",
+      "stage": "marketing_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Verified completed product usage\",\"Recorded creator rates\",\"Current marketing status is listed\"]"
+    },
+    {
+      "template_key": "candidate_asks_campaign_details_26009",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Verified active direct trial\",\"Prior confirmation that waiting before testing is acceptable\",\"No approved channel-specific campaign proposal or budget\"]"
+    },
+    {
+      "template_key": "candidate_cardless_trial_20012",
+      "stage": "membership_pending",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Explicitly supplied registered email\",\"Cardless creator-access request\",\"Membership activation remains unconfirmed\"]"
+    },
+    {
+      "template_key": "candidate_cardless_trial_20082",
+      "stage": "membership_pending_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Explicitly supplied registration email\",\"Checkout failure reported in the thread\",\"Backend-access workflow offered in prior correspondence\",\"Current membership status confirms access is not active\"]"
+    },
+    {
+      "template_key": "candidate_cardless_trial_20213",
+      "stage": "membership_pending_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Explicitly supplied registration email\",\"Verified account\",\"Cardless creator access requested\",\"Membership not yet activated\"]"
+    },
+    {
+      "template_key": "candidate_claims_tested_26103",
+      "stage": "test_verified_collaboration_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Verified completed product usage\",\"Known registered account\",\"Creator previously proposed a dedicated video lasting at least six minutes\",\"No campaign or fee has been agreed\"]"
+    },
+    {
+      "template_key": "candidate_complaint_20342",
+      "stage": "human_review_only",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Creator explicitly says they are stopping follow-ups while remaining open to future collaboration.\",\"Thread confirms unanswered follow-ups.\"]"
+    },
+    {
+      "template_key": "candidate_complaint_22274",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_contract_terms_19323",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_contract_terms_19400",
+      "stage": "external_channel_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_contract_terms_19788",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"The recipient explicitly supplied the alternate collaboration contact address.\"]"
+    },
+    {
+      "template_key": "candidate_contract_terms_23418",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Creator explicitly confirmed current availability and absence of exclusivity.\",\"Campaign and engagement remain unconfirmed.\"]"
+    },
+    {
+      "template_key": "candidate_contract_terms_26181",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Previously recorded creator rates\",\"Confirmed absence of an approved campaign or budget\",\"Creator’s written-agreement requirement\",\"Confirmed unresolved generation-time issue\"]"
+    },
+    {
+      "template_key": "candidate_not_interested_19373",
+      "stage": "closed_after_test",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Verified completed product test\",\"Explicit decision not to proceed with the collaboration\",\"Creator’s stated test feedback\"]"
+    },
+    {
+      "template_key": "candidate_not_interested_20640",
+      "stage": "closed",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Explicit rejection based on channel mismatch\",\"Complaint about outreach relevance\"]"
+    },
+    {
+      "template_key": "candidate_other_19279",
+      "stage": "collaboration_details_pending",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_other_19310",
+      "stage": "partnership_contact_handoff",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"channel_name\"]"
+    },
+    {
+      "template_key": "candidate_other_19844",
+      "stage": "human_review_candidate",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_other_19909",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_other_20586",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_other_21098",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Explicit referral to a commercial representative and supplied contact details.\"]"
+    },
+    {
+      "template_key": "candidate_other_26029",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_price_and_tested_21080",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Verified completed product usage.\",\"Current creator offer and rate.\",\"Confirmed marketing-list status.\"]"
+    },
+    {
+      "template_key": "candidate_price_received_19265",
+      "stage": "price_received",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "rejected",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_price_received_19306",
+      "stage": "commercial_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "candidate_price_received_19895",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Explicit creator rate and payment conditions\",\"Human review before sending\"]"
+    },
+    {
+      "template_key": "candidate_price_received_19913",
+      "stage": "commercial_terms_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Creator supplied a collaboration rate and payment conditions.\",\"Test code was already sent.\",\"No completed product test has been established.\",\"Campaign and payment terms have not been accepted.\"]"
+    },
+    {
+      "template_key": "candidate_price_received_20361",
+      "stage": "test_pending",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Creator rates explicitly supplied\",\"Test access already sent\",\"Creator plans to test\",\"No unresolved questions\"]"
+    },
+    {
+      "template_key": "candidate_price_received_20579",
+      "stage": "price_received",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Creator's stated rate, integration duration, and measurement conditions\",\"Creator's request to consider YouTube Community posts\",\"channel_name\",\"original_subject\"]"
+    },
+    {
+      "template_key": "candidate_price_received_22980",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Creator-provided collaboration rate, format, availability, and licensing conditions\"]"
+    },
+    {
+      "template_key": "candidate_price_received_25935",
+      "stage": "commercial_review_pending",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Recorded creator proposal\",\"Confirmed absence of approved budget and finalized brief\",\"Creator's production prerequisites\"]"
+    },
+    {
+      "template_key": "candidate_price_received_26107",
+      "stage": "marketing_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Original creator explicitly declined.\",\"Representative supplied an alternative creator and their rate.\"]"
+    },
+    {
+      "template_key": "candidate_wants_test_19261",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "rejected",
+      "enabled": 0,
+      "context_requirements_json": "[\"coupon_code\"]"
+    },
+    {
+      "template_key": "candidate_wants_test_19715",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"coupon_code\",\"original_subject\"]"
+    },
+    {
+      "template_key": "candidate_wants_test_19872",
+      "stage": "human_review_candidate_disabled",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Creator-supplied rate, availability, and restrictions\",\"Valid creator coupon code\",\"Confirmation that test access has not already been sent\"]"
+    },
+    {
+      "template_key": "candidate_wants_test_20261",
+      "stage": "coupon_ready_human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Approved creator test coupon code\",\"Creator-provided rates and proposed payment/publication terms\",\"Confirmation that access has not already been sent\"]"
+    },
+    {
+      "template_key": "candidate_wants_test_21091",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"Approved creator coupon code.\",\"Human review before sending.\"]"
+    },
+    {
+      "template_key": "candidate_wants_test_22851",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "pending_review",
+      "enabled": 0,
+      "context_requirements_json": "[\"An approved creator coupon code\",\"The channel name\"]"
+    },
+    {
+      "template_key": "coupon_test",
+      "stage": "coupon_ready",
+      "risk_level": "medium",
+      "version": 14,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "coupon_test_campaign_details",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 3,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[\"No coupon or membership access has been sent\",\"No real test has started or completed\",\"No creator rate, contract term, product issue, privacy question, or complaint is live\",\"The creator asks about campaign budget, brief, deliverables, format, timeline, or next steps\"]"
+    },
+    {
+      "template_key": "coupon_test_rate_received",
+      "stage": "coupon_ready",
+      "risk_level": "medium",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "coupon_test_t2v_knowledge_v1",
+      "stage": "coupon_ready",
+      "risk_level": "medium",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "first_contact",
+      "stage": "first_contact",
+      "risk_level": "medium",
+      "version": 3,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "first_contact_legacy_light",
+      "stage": "first_contact",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "first_contact_t2v_knowledge_v1",
+      "stage": "first_contact",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "initial_followup_24h",
+      "stage": "followup",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "marketing_listed",
+      "stage": "marketing_review",
+      "risk_level": "medium",
+      "version": 3,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "membership_activated",
+      "stage": "testing",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "not_interested",
+      "stage": "closed",
+      "risk_level": "low",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "offer_trial_first_20260905",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "product_question_hold",
+      "stage": "product_question",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "rate_followup_24h",
+      "stage": "price_needed",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "rate_received",
+      "stage": "price_received",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "registered_email_followup_24h",
+      "stage": "membership_email_needed",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "reviewed_affiliate_code_20260913",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "reviewed_arabic_code_20260913",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "reviewed_completed_test_followup_20260922",
+      "stage": "price_needed",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[\"Full thread reviewed\", \"Completed test independently verified in product backend\", \"No creator feedback or rate received\", \"No newer inbound or outbound message\"]"
+    },
+    {
+      "template_key": "reviewed_faceless_supported_with_code_20260922",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[\"Full thread reviewed\", \"Creator asks whether faceless content is supported\", \"No prior code or active access\", \"Product support confirmed by user\"]"
+    },
+    {
+      "template_key": "reviewed_payment_direction_20260913",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "reviewed_post_test_budget_ask_rate_20260922",
+      "stage": "price_needed",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[\"Full thread reviewed\", \"Completed product use verified in backend\", \"Creator asks budget for YouTube and TikTok\", \"No creator rate recorded\"]"
+    },
+    {
+      "template_key": "reviewed_product_identity_20260922",
+      "stage": "product_question",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[\"Full thread reviewed\", \"Creator asks whether VideoCoding is software or a product\", \"No prior trial access\"]"
+    },
+    {
+      "template_key": "reviewed_rate_scope_with_code_20260921",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[\"complete_thread_review\",\"exact_rate_recorded\",\"no_unanswered_product_or_privacy_question\",\"no_specific_contract_acceptance\",\"no_existing_access_or_test\"]"
+    },
+    {
+      "template_key": "reviewed_scope_before_trial_20260913",
+      "stage": "human_review",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "reviewed_scope_with_code_20260913",
+      "stage": "coupon_ready",
+      "risk_level": "high",
+      "version": 2,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "reviewed_test_decline_processing_20260922",
+      "stage": "closed_after_test_feedback",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "test_claim_checking",
+      "stage": "test_claimed",
+      "risk_level": "high",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "test_followup",
+      "stage": "testing",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "test_login_only",
+      "stage": "test_login_only",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "test_planned_ack",
+      "stage": "testing",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    },
+    {
+      "template_key": "test_started_incomplete",
+      "stage": "test_started",
+      "risk_level": "medium",
+      "version": 1,
+      "approval_status": "approved",
+      "enabled": 1,
+      "context_requirements_json": "[]"
+    }
+  ]
+}
