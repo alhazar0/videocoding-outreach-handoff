@@ -6,7 +6,7 @@
 
 仓库地址：https://github.com/alhazar0/videocoding-outreach-handoff 。第一次接手请先读 [完整交接清单与 AI 接手指令](docs/11_HANDOFF_CHECKLIST.md)，再读 [我对项目的判断](docs/10_MY_ASSESSMENT.md)。公开代码、私有运营证据和外部权限分开交付，不能只下载代码就对旧名单重新发送。
 
-**2026-11-09 补充交接：** 数据包通过 [GitHub Release 下载](https://github.com/alhazar0/videocoding-outreach-handoff/releases/tag/handoff-data-20261109)，采用 AES-256 加密 ZIP，解压密码由项目负责人单独提供。`git clone` 和仓库的 Source code ZIP 不包含 Release 附件。请同时阅读 [下载与解压说明](docs/12_DATA_PACKAGE.md) 和 [给接手 AI 的补充说明](docs/13_HANDOFF_SUPPLEMENT.md)。
+**2026-11-09 补充交接：** 数据包通过 [GitHub Release 下载](https://github.com/alhazar0/videocoding-outreach-handoff/releases/tag/handoff-data-20261109)，采用 AES-256 加密 ZIP 分卷并提供自动合并脚本，解压密码由项目负责人单独提供。`git clone` 和仓库的 Source code ZIP 不包含 Release 附件。请同时阅读 [下载与解压说明](docs/12_DATA_PACKAGE.md) 和 [给接手 AI 的补充说明](docs/13_HANDOFF_SUPPLEMENT.md)。
 
 ## 先看结论
 

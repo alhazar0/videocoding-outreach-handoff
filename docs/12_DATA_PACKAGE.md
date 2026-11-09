@@ -6,14 +6,23 @@
 
 打开 [handoff-data-20261109 Release](https://github.com/alhazar0/videocoding-outreach-handoff/releases/tag/handoff-data-20261109)，在 Assets 下载：
 
-- `videocoding-operations-20261101.encrypted.zip`：AES-256 加密的数据包，约 317 MB。
+- `videocoding-operations-20261101.encrypted.zip.001` 至 `.008`：全部八个加密分卷，总计约 317 MB。
+- `parts-manifest.json`、`join_data_parts.py`：分卷校验清单与自动合并脚本（Python 3.11+）。
 - `SHA256SUMS.txt`：加密文件 SHA-256。
 - `encrypted-package-manifest.json`：大小、哈希、加密与验证方式。
 - `HANDOFF-SUPPLEMENT.txt`：接手补充说明。
 
 `git clone` 及 GitHub 自动生成的 Source code ZIP/TAR.GZ 仅含代码和文档，不含 Release 数据附件。解压密码由负责人在仓库之外单独提供，不存在 Git 历史、README 或 Release 文案中。
 
-## 校验和解压
+## 合并、校验和解压
+
+为应对上传线路不稳定，加密 ZIP 拆成八个分卷。把全部八卷、`parts-manifest.json` 和 `join_data_parts.py` 下载到同一文件夹；不要把 `.001` 当成完整数据包。用 Python 3.11 或更高版本运行：
+
+```powershell
+py .\join_data_parts.py
+```
+
+macOS / Linux 可运行 `python3 join_data_parts.py`。脚本核验每卷与合并文件的 SHA-256，成功后生成 `videocoding-operations-20261101.encrypted.zip`，不需要密码、不会解密，也不会恢复业务进程。缺卷或损坏会停止。随后再进行下述解密步骤。
 
 Windows PowerShell 可以先计算下载文件的 SHA-256，与 SHA256SUMS.txt 比较：
 
