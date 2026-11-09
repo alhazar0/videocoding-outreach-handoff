@@ -6,6 +6,8 @@
 
 仓库地址：https://github.com/alhazar0/videocoding-outreach-handoff 。第一次接手请先读 [完整交接清单与 AI 接手指令](docs/11_HANDOFF_CHECKLIST.md)，再读 [我对项目的判断](docs/10_MY_ASSESSMENT.md)。公开代码、私有运营证据和外部权限分开交付，不能只下载代码就对旧名单重新发送。
 
+**2026-11-09 补充交接：** 数据包通过 [GitHub Release 下载](https://github.com/alhazar0/videocoding-outreach-handoff/releases/tag/handoff-data-20261109)，采用 AES-256 加密 ZIP，解压密码由项目负责人单独提供。`git clone` 和仓库的 Source code ZIP 不包含 Release 附件。请同时阅读 [下载与解压说明](docs/12_DATA_PACKAGE.md) 和 [给接手 AI 的补充说明](docs/13_HANDOFF_SUPPLEMENT.md)。
+
 ## 先看结论
 
 - 联系人 47,901；首次联系获提供商接受 30,551；首次提交结果不明 34。接受不等于实际收到。
@@ -29,6 +31,8 @@
 9. [验证结果](docs/09_VALIDATION.md)
 10. [我的判断：值得复制什么、应当停止什么](docs/10_MY_ASSESSMENT.md)
 11. [完整交接清单、验收和 AI 接手指令](docs/11_HANDOFF_CHECKLIST.md)
+12. [加密数据包下载、解压与校验](docs/12_DATA_PACKAGE.md)
+13. [数据库、凭证与官网迁移的补充说明](docs/13_HANDOFF_SUPPLEMENT.md)
 
 AI 接手先读 [AGENTS.md](AGENTS.md)。[handoff/metrics.json](handoff/metrics.json) 是机器可读汇总，[handoff/analyze_outreach.py](handoff/analyze_outreach.py) 可对私有数据库只读复算。
 
@@ -36,6 +40,6 @@ AI 接手先读 [AGENTS.md](AGENTS.md)。[handoff/metrics.json](handoff/metrics.
 
 保留 dashboard、API、采集、队列、双通道发信、收信、完整会话审阅、产品核验、人工免卡、服务保护、数据库结构和回归测试。包含后来未提交到旧 Git 的重要修复；不沿用带联系人种子的旧 Git 历史。
 
-真实数据库、联系人种子、邮件正文、附件、生产发送 manifest、完整禁发和 grant 证据通过仓库外私有数据包交接。OAuth、Stripe、产品令牌和邮箱密码不随代码或数据包交付，需独立配置。仓库的空种子不会复现真实名单；部署模板中的 OPERATOR、OAuth ID 和隧道主机是占位值。
+真实数据库、联系人种子、邮件正文、附件、生产发送 manifest、完整禁发和 grant 证据通过加密 Release 附件交接，解密后的数据和密码不提交 Git。OAuth、Stripe、产品令牌和邮箱密码不随代码或数据包交付，需独立配置。仓库的空种子不会复现真实名单；部署模板中的 OPERATOR、OAuth ID 和隧道主机是占位值。
 
 这是便于学习和继续开发的代码交接，不是零配置生产镜像。Python 标准凭证入口默认禁用，账单插件默认关闭；这些防误操作开关不构成网络沙箱。正式迁移需独立完成私有数据与状态保护验收。

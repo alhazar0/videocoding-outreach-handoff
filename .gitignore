@@ -25,6 +25,9 @@ work/
 *.key
 *.log
 *.tsbuildinfo
+*.tar.gz
+*.encrypted.zip
+.handoff-data-password*
 __pycache__/
 *.py[cod]
 .DS_Store
